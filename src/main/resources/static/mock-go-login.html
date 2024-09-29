@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        title{
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 100%;  /* Make the white background container wider */
+            max-width: 400px;  /* Limit the max width for larger screens */
+            margin: 0 auto;  /* Center the container */
+            padding: 20px;
+            background-color: white;  /* White background for the container */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a slight shadow for a cleaner look */
+        }
+        .password-size{
+             font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+             font-size: 10px;
+        }
+        h3 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+        }
+        .inputController {
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 10px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .text-style{
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        .hidden {
+            display: none;
+        }
+    .right{
+         text-align: center;
+         float: center;
+    }
+    </style>
+    <title>GO App Login</title>
+    <script src="https://alcdn.msauth.net/browser/2.17.0/js/msal-browser.min.js"></script>
+</head>
+<body>
+<div id="loginPage" class="container">
+    <h3>GO App Login</h3>
+    <button onclick="login()">Login with Azure AD</button>
+</div>
+
+<script>
+    const msalConfig = {
+        auth: {
+            clientId: "bb4ac709-e6b5-4c53-8f77-8fddc1963f50", // Replace with your Azure AD App registration client ID
+            authority: "https://login.microsoftonline.com/dabd5d90-87c2-44c9-93cd-783e03236e40", // Replace with your Tenant ID
+            redirectUri: "http://localhost:8080/mock-go-dashboard.html" // Must match with the one registered in Azure AD
+        }
+    };
+
+    const msalInstance = new msal.PublicClientApplication(msalConfig);
+
+    function login() {
+        const loginRequest = {
+            scopes: ["openid", "profile", "email"]
+        };
+
+        msalInstance.loginPopup(loginRequest)
+            .then(response => {
+                const username = response.account.username;
+                localStorage.setItem('username', username);
+                window.location.href = 'mock-go-dashboard.html'; // Redirect to dashboard after login
+            })
+            .catch(error => {
+                console.error('Login failed: ', error);
+            });
+    }
+</script>
+</body>
+</html>

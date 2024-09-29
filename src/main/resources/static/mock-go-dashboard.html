@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        title{
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 100%;  /* Make the white background container wider */
+            max-width: 400px;  /* Limit the max width for larger screens */
+            margin: 0 auto;  /* Center the container */
+            padding: 20px;
+            background-color: white;  /* White background for the container */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a slight shadow for a cleaner look */
+        }
+        .inputController {
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        h3 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 10px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .hidden {
+            display: none;
+        }
+       table {
+        margin: 20px 0;  /* Center the table within the container */
+        width: 100%;  /* Keep table width at 80% of the container */
+        border-collapse: collapse;
+        font-family: 'Aptos', sans-serif;
+        font-size: 11px;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    table th {
+        background-color: lightblue;  /* Light blue header */
+        color: black;
+    }
+
+    table td{
+       background-color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;  /* Alternate rows: grey */
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pagination button {
+        font-size: 11px;
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        background-color: white;
+        color: #333;
+    }
+
+    .pagination button:hover {
+        background-color: lightblue;
+    }
+
+    .pagination button:disabled {
+        background-color: #f0f0f0;
+        color: #888;
+        cursor: not-allowed;
+    }
+    #replacementResults{
+       margin: 0 auto;
+       border: 1px solid #ddd;
+       border-radius: 5px;
+       width: 150%;
+       padding: 0;
+       overflow-x: auto;  /* Allow horizontal scrolling if necessary */
+       text-align: center;
+       font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-color: transparent;
+       border: none;
+    }
+    </style>
+    <title>GO App Dashboard</title>
+</head>
+<body>
+<div id="goApp" class="container">
+    <h3>GO App Dashboard</h3>
+    <div class="inputController">
+        <p id="userName"></p>
+    </div>
+    <div id="dashboardbtns1">
+        <button id="goReplaceBtn" class="button" onclick="navigateToSearchPump()">GO Replace</button>
+        <button id="reviewAnalysis" class="button" onclick="performReviewAnalysis()">Review Analysis</button>
+        <button id="reqAnalysis" class="button" onclick="requirementAnalysis()">Requirement Analysis</button>
+    </div>
+    <div id="dashboardbtns2">
+        <button id="telemetryDashboardbtn" class="button" onclick="showTelemetryDashboard()">Telemetry Dashboard</button>
+        <button id="predictiveMaintenance" class="button" onclick="preparePredictiveMaintenance()">Predictive Maintenance</button>
+    </div>
+</div>
+
+<script>
+    // Retrieve the username from localStorage and display it
+    window.onload = function() {
+        const username = localStorage.getItem('username');
+        if (username) {
+            document.getElementById("userName").textContent = `Hello ${username}, welcome to the GO!`;
+        }
+    };
+
+    function navigateToSearchPump() {
+        window.location.href = "mock-go-search-pump.html";
+    }
+
+    function performReviewAnalysis() {
+        window.location.href = "mock-ai-review-analysis.html";
+    }
+
+    function requirementAnalysis(){
+       window.location.href = "mock-go-ui-requirements.html";
+    }
+
+    function showTelemetryDashboard() {
+        window.location.href = "mock-go-telemetry.html";
+       // document.getElementById('goApp').classList.add('hidden');
+       // document.getElementById('telemetryDashboard').classList.remove('hidden');
+
+        // Track the event with the logged-in user name
+        //appInsights.trackEvent({
+          //  name: "mockGOvisits",
+           // properties: { "UserName": localStorage.getItem('username') }
+        //});
+    }
+</script>
+</body>
+</html>

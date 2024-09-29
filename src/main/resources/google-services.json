@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87195744436",
+    "project_id": "grundfos-goapp",
+    "storage_bucket": "grundfos-goapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87195744436:android:1038b4372a2f1557647fe1",
+        "android_client_info": {
+          "package_name": "com.grundfos.go2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8HsYUE9IMahIGymI-TxArcxSI9JV5MXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

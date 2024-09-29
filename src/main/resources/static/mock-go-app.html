@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        title{
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 100%;  /* Make the white background container wider */
+            max-width: 400px;  /* Limit the max width for larger screens */
+            margin: 0 auto;  /* Center the container */
+            padding: 20px;
+            background-color: white;  /* White background for the container */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a slight shadow for a cleaner look */
+        }
+        .password-size{
+             font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+             font-size: 10px;
+        }
+        .telemetry-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1000px;
+            padding: 20px;
+            text-align: center;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .recommended-pump-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 20px 180px;
+            text-align: center;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        h1 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+        }
+        h3 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+        }
+        .inputController {
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 10px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .pagecls{
+            font-size: 10px;
+        }
+        .button-small{
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 12px;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 7px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .text-style{
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        .hidden {
+            display: none;
+        }
+       table {
+        margin: 20px 0;  /* Center the table within the container */
+        width: 100%;  /* Keep table width at 80% of the container */
+        border-collapse: collapse;
+        font-family: 'Aptos', sans-serif;
+        font-size: 11px;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    table th {
+        background-color: lightblue;  /* Light blue header */
+        color: black;
+    }
+
+    table td{
+       background-color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;  /* Alternate rows: grey */
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pagination button {
+        font-size: 11px;
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        background-color: white;
+        color: #333;
+    }
+
+    .pagination button:hover {
+        background-color: lightblue;
+    }
+
+    .pagination button:disabled {
+        background-color: #f0f0f0;
+        color: #888;
+        cursor: not-allowed;
+    }
+    #replacementResults{
+       margin: 0 auto;
+       border: 1px solid #ddd;
+       border-radius: 5px;
+       width: 150%;
+       padding: 0;
+       overflow-x: auto;  /* Allow horizontal scrolling if necessary */
+       text-align: center;
+       font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-color: transparent;
+       border: none;
+    }
+    .lblcls{
+        font-family: 'Aptos', sans-serif;
+        font-size: 10px;
+    }
+    #replacementResults-old {
+        width: 100%;  /* Full width within the container */
+        margin-top: 20px;
+        padding: 10px;
+        border: 0px;
+        border-radius: 5px;
+        overflow-x: auto;  /* Allow horizontal scrolling if necessary */
+        text-align: center;  /* Center the table within the container */
+    }
+    .right{
+         text-align: center;
+         float: center;
+    }
+    </style>
+    <title>GO App</title>
+</head>
+<body>
+
+<!-- Login Form -->
+<div id="loginPage" class="container">
+    <h3>GO App Login</h3>
+    <input class="inputController" type="text" id="username" placeholder="Username" required><br><br>
+    <div class="right">
+        <input style="margin-left:100px;" class="inputController" type="password" id="password" placeholder="Password" required>
+        <span>&nbsp;&nbsp;&nbsp;<a class="password-size" href="#">Forgot Password?</a></span>
+    </div><br>
+    <button onclick="login()">Login</button>
+</div>
+
+<!-- Main App -->
+<div id="goApp" class="container hidden">
+    <h3>GO App</h3>
+    <div class="inputController">
+    <p id="userName"></p>
+    </div>
+    <div id="dashboardbtns1">
+        <button id="goReplaceBtn" class="button" onclick="navigateToSearchPump()">GO Replace</button>
+        <button id="reviewAnalysis" class="button" onclick="performReviewAnalysis()">Review Analysis</button>
+    </div>
+    <div id="dashboardbtns2">
+        <button id="telemetryDashboardbtn" class="button" onclick="showTelemetryDashboard()">Telemetry Dashboard</button>
+        <button id="predictiveMaintenance" class="button" onclick="preparePredivtiveMaintenance()">Predictive Maintenance</button>
+    </div>
+    <div id="searchPump" class="hidden">
+        <h3>Search Pump</h3>
+        <input class="inputController" type="text" id="typeName" placeholder="Enter feature description"><br><br>
+        <button onclick="searchReplacementPump()">Search</button>
+    </div>
+    <div id="replacementResults" class="inputController"></div>
+
+    <div id="pumpList" class="hidden">
+        <h2>Select Pump to Install</h2>
+        <div>
+            <!-- Pumps -->
+            <label for="pump1"><input type="radio" id="pump1" name="pump"> ALPHA1</label><br>
+            <label for="pump2"><input type="radio" id="pump2" name="pump"> ALPHA1 N</label><br>
+            <label for="pump3"><input type="radio" id="pump3" name="pump"> ALPHA2</label><br><br>
+        </div>
+        <button onclick="navigateToGuidedSetup()">Install</button>
+    </div>
+
+    <div id="guidedSetup" class="hidden">
+        <h2>Guided Pump Setup</h2>
+        <div id="step1">
+            <h3>Step 1</h3>
+            <button onclick="completeStep('step1')">Verify</button>
+            <p id="step1Status" class="hidden">Step 1 is completed successfully.</p>
+        </div><br>
+        <div id="step2">
+            <h3>Step 2</h3>
+            <button onclick="completeStep('step2')">Verify</button>
+            <p id="step2Status" class="hidden">Step 2 is completed successfully.</p>
+        </div><br>
+        <div id="step3">
+            <h3>Step 3</h3>
+            <button onclick="completeStep('step3')">Verify</button>
+            <p id="step3Status" class="hidden">Step 3 is completed successfully.</p>
+        </div><br>
+        <p id="completionMessage" class="hidden">You have successfully completed pump installation.</p>
+        <button id="returnBtn" class="hidden" onclick="returnToHome()">Return</button>
+    </div>
+
+   <!-- <a id="telemetryDashboardLink" href="javascript:void(0);" class="inputController hidden" onclick="showTelemetryDashboard()">Telemetry Dashboard</a>-->
+</div>
+
+<!-- Telemetry Dashboard -->
+<div id="telemetryDashboard" class="telemetry-container hidden">
+    <h3>Telemetry Dashboard</h3>
+    <label class="lblcls" for="eventName">Choose Event Name:</label>
+    <select id="eventName">
+        <option value="mockGOvisits1">mockGO visits</option>
+        <option value="mockGOvisits2">another event</option>
+    </select>
+    <br><br>
+    <button class="button-small" onclick="fetchTelemetry()">Fetch Events</button>
+    <div id="results"></div>
+    <div id="pagination" class="text-style hidden">
+        <button id="prevPageBtn" class="button-small" onclick="prevPage()" disabled>Previous</button>
+        <span id="pageInfo" class="pagecls">Page 1</span>
+        <button id="nextPageBtn" class="button-small" onclick="nextPage()">Next</button>
+    </div>
+</div>
+
+<script>
+    let events = [];
+    let currentPage = 1;
+    const rowsPerPage = 12;
+
+    // Handle login
+    function login() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        const loginData = {
+            userName: username,
+            password: password
+        };
+        //fetch('https://gf-goapp-d-bccshffchta4f5ek.westeurope-01.azurewebsites.net/login', {
+        //fetch('http://localhost:8080/login', {
+        fetch('http://localhost:8080/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(loginData)
+        })
+            .then(response => {
+                if (response.ok){
+                    return response.json();
+                }else{
+                    throw new Error('Login Failed');
+                }
+            })
+            .then(data => {
+               // localStorage.setItem('user', username);
+              //  localStorage.setItem('completedSteps', 'false');
+                document.getElementById('loginPage').classList.add('hidden');
+                document.getElementById('goApp').classList.remove('hidden');
+                setUserName(username);
+                console.log('Login successful: ', data);
+            })
+            .catch(error => {
+                console.error('Login Error:', error);
+            });
+        // Track the login event with the user name
+        appInsights.trackEvent({
+            name: "UserLoggedIn",
+            properties: { "UserName": username }
+        });
+    }
+
+    // Display the user name
+    function setUserName(userName) {
+        document.getElementById("userName").textContent = "Hello " + userName + ", welcome to the GO!";
+    }
+
+    // Navigate through the app
+    function navigateToSearchPump() {
+        //document.getElementById('home').classList.add('hidden');
+        //document.getElementById('searchPump').classList.remove('hidden');
+        window.location.href="mock-go-search-pump.html";
+    }
+    function performReviewAnalysis(){
+       window.location.href="mock-ai-review-analysis.html";
+    }
+
+    function showPumpList() {
+        document.getElementById('searchPump').classList.add('hidden');
+        document.getElementById('pumpList').classList.remove('hidden');
+    }
+
+    function navigateToGuidedSetup() {
+        document.getElementById('pumpList').classList.add('hidden');
+        document.getElementById('guidedSetup').classList.remove('hidden');
+    }
+
+    function completeStep(step) {
+        document.getElementById(step + 'Status').classList.remove('hidden');
+        if (step === 'step3') {
+            document.getElementById('completionMessage').classList.remove('hidden');
+            document.getElementById('returnBtn').classList.remove('hidden');
+        }
+    }
+
+    function returnToHome() {
+        document.getElementById('guidedSetup').classList.add('hidden');
+        document.getElementById('home').classList.remove('hidden');
+        localStorage.setItem('completedSteps', 'true');
+        checkIfStepsCompleted();
+    }
+
+    // Check if the user completed steps and show Telemetry Dashboard link
+    function checkIfStepsCompleted() {
+        if (localStorage.getItem('completedSteps') === 'true') {
+            document.getElementById('telemetryDashboardLink').classList.remove('hidden');
+        }
+    }
+
+    // Show the telemetry dashboard
+    function showTelemetryDashboard() {
+        document.getElementById('goApp').classList.add('hidden');
+        document.getElementById('telemetryDashboard').classList.remove('hidden');
+
+        // Track the event with the logged-in user name
+        appInsights.trackEvent({
+            name: "mockGOvisits",
+            properties: { "UserName": localStorage.getItem('user') }
+        });
+    }
+
+    // Fetch telemetry data
+    async function fetchTelemetry() {
+        const eventName = document.getElementById('eventName').value;
+        const resultsContainer = document.getElementById('results');
+        resultsContainer.innerHTML = 'Fetching data...';
+
+        const apiKey = 'mj6k41hcunrrtjzqs3dwk8fbckgeiojfg0l1uquz';  // Replace with your API key
+        const appId = '90ad2854-ccef-4b71-9b9e-385cc0584894';  // Replace with your App Insights Application ID
+        const query = `
+              customEvents
+              | where name == '${eventName}'
+              | order by timestamp desc
+              | project timestamp, name, appId, customDimensions.userName`;
+
+        const response = await fetch(`https://api.applicationinsights.io/v1/apps/${appId}/query`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'x-api-key': apiKey
+            },
+            body: JSON.stringify({ query })
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            events = data.tables[0].rows;
+
+            if (events.length > 0) {
+                currentPage = 1;
+                displayTable(events, currentPage);
+                document.getElementById('pagination').classList.remove('hidden');
+            } else {
+                resultsContainer.innerHTML = 'No events found.';
+                document.getElementById('pagination').classList.add('hidden');
+            }
+        } else {
+            resultsContainer.innerHTML = 'Error fetching data.';
+        }
+    }
+
+    function displayTable(data, page) {
+        const start = (page - 1) * rowsPerPage;
+        const end = start + rowsPerPage;
+        const paginatedData = data.slice(start, end);
+
+        let tableHtml = `<table border="1" style="width: 100%; text-align: center; font-family: 'Aptos', sans-serif;">
+<thead>
+<tr style="background-color: lightblue;">
+<th>Timestamp [Local Time]</th>
+<th>Event Name</th>
+<th>App ID</th>
+<th>User Name</th> <!-- Display User Name -->
+<th>Link to Logs Chart</th>
+</tr>
+</thead>
+<tbody>`;
+
+        paginatedData.forEach((event, index) => {
+            const utcTimestamp = new Date(event[0]);
+            const options = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const localTime = utcTimestamp.toLocaleString(undefined, options);  // Convert to custom local time format
+            const eventName = event[1];
+            const appId = event[2];
+            const userName = event[3]; // Retrieve User Name from customDimensions
+            const rowColor = index % 2 === 0 ? 'lightgrey' : 'white';
+            const chartLink = `https://portal.azure.com/#blade/AppInsightsExtension/LogsBlade/resourceId=%2Fsubscriptions%2F72e2f1e3-91e1-4bd9-9b3d-cd2e9e422501%2FresourceGroups%2FGF-RG-GoApp-D%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F${appId}/source/LogsBlade.AnalyticsShareLinkToQuery/q/customEvents%20%7C%20where%20timestamp%20%3E%20ago(1d)%20%7C%20where%20name%20%3D%3D%20'${eventName}'`;
+
+            tableHtml += `<tr style="background-color: ${index % 2 === 0 ? 'lightgrey' : 'white'}; font-size: 9px; 'text-align': left">
+<td>${localTime}</td>  <!-- Display local time -->
+<td>${eventName}</td>
+<td>${appId}</td>
+<td>${userName}</td>
+<td><a href="${chartLink}" target="_blank">View Chart</a></td>
+</tr>`;
+        });
+
+        tableHtml += `</tbody></table>`;
+        document.getElementById('results').innerHTML = tableHtml;
+        updatePaginationInfo(page, data.length);
+    }
+
+    function updatePaginationInfo(page, totalRows) {
+        const totalPages = Math.ceil(totalRows / rowsPerPage);
+        document.getElementById('pageInfo').textContent = `Page ${page} of ${totalPages}`;
+        document.getElementById('prevPageBtn').disabled = page === 1;
+        document.getElementById('nextPageBtn').disabled = page === totalPages;
+    }
+
+    function nextPage() {
+        currentPage++;
+        displayTable(events, currentPage);
+    }
+
+    function prevPage() {
+        currentPage--;
+        displayTable(events, currentPage);
+    }
+
+   currentPage = 1;
+   let searchResults = [];
+
+function searchReplacementPump() {
+  const typeName = document.getElementById('typeName').value;
+  const resultsDiv = document.getElementById('replacementResults');
+  resultsDiv.innerHTML = 'Searching...';
+
+  if(typeName){
+     window.location.href = `mock-ai-search.html?search=${typeName}`;
+  }else{
+     alert("Please enter a pump type name!");
+  }
+
+  // Call the Spring Boot API instead of the Azure Search API directly
+  //const searchUrl = `http://localhost:8080/search?q=${typeName}`;
+
+  //fetch(searchUrl)
+  //.then(response => response.json())
+  //.then(data => {
+   // if (data.value && data.value.length > 0) {
+      //searchResults = data.value;  // Store the results globally
+      //currentPage = 1;  // Reset to the first page
+      //displayResults(currentPage);
+    //} else {
+      //resultsDiv.innerHTML = 'No replacement pumps found.';
+    //}
+  //})
+ //.catch(error => {
+    //console.error('Error fetching replacement pumps:', error);
+    //resultsDiv.innerHTML = 'An error occurred while searching.';
+  //});
+}
+
+function displayResults(page) {
+    const resultsDiv = document.getElementById('replacementResults');
+    let resultHtml = '<h3>Recommended Replacement Pumps:</h3>';
+    resultHtml += '<table><thead><tr><th>Pump Name</th><th>Feature Description</th><th>Replacement Pump Name</th></tr></thead><tbody>';
+    const start = (page - 1) * rowsPerPage;
+    const end = start + rowsPerPage;
+    const paginatedResults = searchResults.slice(start, end);
+
+    paginatedResults.forEach(item => {
+        resultHtml += `<tr><td>${item.pump_name}</td><td>${item.feature_description}</td><td>${item.replacement_pump_name}</td></tr>`;
+    });
+
+    resultHtml += '</tbody></table>';
+    resultHtml += generatePagination(page, searchResults.length);
+
+    resultsDiv.innerHTML = resultHtml;
+}
+
+function generatePagination(page, totalRows) {
+    const totalPages = Math.ceil(totalRows / rowsPerPage);
+    let paginationHtml = '<div class="pagination">';
+
+    if (page > 1) {
+        paginationHtml += `<button onclick="displayResults(${page - 1})">Previous</button>`;
+    } else {
+        paginationHtml += `<button disabled>Previous</button>`;
+    }
+
+    paginationHtml += ` Page ${page} of ${totalPages} `;
+
+    if (page < totalPages) {
+        paginationHtml += `<button onclick="displayResults(${page + 1})">Next</button>`;
+    } else {
+        paginationHtml += `<button disabled>Next</button>`;
+    }
+
+    paginationHtml += '</div>';
+    return paginationHtml;
+}
+    // Check if steps are completed on load
+    window.onload = checkIfStepsCompleted;
+
+</script>
+
+</body>
+</html>

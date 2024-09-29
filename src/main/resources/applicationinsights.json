@@ -1,0 +1,9 @@
+{
+  "connectionString":"InstrumentationKey=bd894fcb-73f6-4382-8b5a-2745d07c5401",
+  "role": {
+    "name": "rate-review-poc"
+  },
+  "sampling": {
+    "percentage": 100
+  }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO Replace</title>
+    <style>
+        title{
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 100%;  /* Make the white background container wider */
+            max-width: 400px;  /* Limit the max width for larger screens */
+            margin: 0 auto;  /* Center the container */
+            padding: 20px;
+            background-color: white;  /* White background for the container */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a slight shadow for a cleaner look */
+        }
+        .password-size{
+             font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+             font-size: 10px;
+        }
+        .telemetry-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1000px;
+            padding: 20px;
+            text-align: center;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .recommended-pump-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 20px 180px;
+            text-align: center;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        h1 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+        }
+        h3 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+        }
+        .inputController {
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 10px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .pagecls{
+            font-size: 10px;
+        }
+        .button-small{
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 12px;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 7px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .text-style{
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        .hidden {
+            display: none;
+        }
+       table {
+        margin: 20px 0;  /* Center the table within the container */
+        width: 100%;  /* Keep table width at 80% of the container */
+        border-collapse: collapse;
+        font-family: 'Aptos', sans-serif;
+        font-size: 11px;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    table th {
+        background-color: lightblue;  /* Light blue header */
+        color: black;
+    }
+
+    table td{
+       background-color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;  /* Alternate rows: grey */
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pagination button {
+        font-size: 11px;
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        background-color: white;
+        color: #333;
+    }
+
+    .pagination button:hover {
+        background-color: lightblue;
+    }
+
+    .pagination button:disabled {
+        background-color: #f0f0f0;
+        color: #888;
+        cursor: not-allowed;
+    }
+    #replacementResults{
+       margin: 0 auto;
+       border: 1px solid #ddd;
+       border-radius: 5px;
+       width: 150%;
+       padding: 0;
+       overflow-x: auto;  /* Allow horizontal scrolling if necessary */
+       text-align: center;
+       font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-color: transparent;
+       border: none;
+    }
+    #replacementResults-old {
+        width: 100%;  /* Full width within the container */
+        margin-top: 20px;
+        padding: 10px;
+        border: 0px;
+        border-radius: 5px;
+        overflow-x: auto;  /* Allow horizontal scrolling if necessary */
+        text-align: center;  /* Center the table within the container */
+    }
+    .back-button {
+            border: none;
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 50px;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            font-size: 11px;
+    }
+    </style>
+</head>
+<body>
+<div><a href="mock-go-dashboard.html" class="back-button">Back to Dashboard</a>
+    <div class="container">
+
+        <h3>GO Replace - Search Replacement Pump</h3>
+        <input class="inputController" type="text" id="pumpName" placeholder="pump feature description"><br><br>
+        <div id="searchPump">
+            <button onclick="searchReplacementPump()">Search</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function searchReplacementPump() {
+        const pumpName = document.getElementById('pumpName').value;
+        if (pumpName) {
+            // Redirect to the search results page with the search query
+            window.location.href = `mock-ai-search.html?search=${pumpName}`;
+        } else {
+            alert("Please enter a pump name.");
+        }
+    }
+    window.onpopstate = function(){
+       window.location.href = "mock-go-dashboard.html";
+    }
+</script>
+</body>
+</html>

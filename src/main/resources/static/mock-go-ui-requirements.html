@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        title{
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 100%;  /* Make the white background container wider */
+            max-width: 400px;  /* Limit the max width for larger screens */
+            margin: 0 auto;  /* Center the container */
+            padding: 20px;
+            background-color: white;  /* White background for the container */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a slight shadow for a cleaner look */
+        }
+        .inputController {
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 11px;
+        }
+        h3 {
+            color: #3f51b5;
+            margin-bottom: 20px;
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 13px;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            margin: 10px 0;
+            font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        }
+        .hidden {
+            display: none;
+        }
+       table {
+        margin: 20px 0;  /* Center the table within the container */
+        width: 100%;  /* Keep table width at 80% of the container */
+        border-collapse: collapse;
+        font-family: 'Aptos', sans-serif;
+        font-size: 11px;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    table th {
+        background-color: lightblue;  /* Light blue header */
+        color: black;
+    }
+
+    table td{
+       background-color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;  /* Alternate rows: grey */
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pagination button {
+        font-size: 11px;
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        background-color: white;
+        color: #333;
+    }
+
+    .pagination button:hover {
+        background-color: lightblue;
+    }
+
+    .pagination button:disabled {
+        background-color: #f0f0f0;
+        color: #888;
+        cursor: not-allowed;
+    }
+    #replacementResults{
+       margin: 0 auto;
+       border: 1px solid #ddd;
+       border-radius: 5px;
+       width: 150%;
+       padding: 0;
+       overflow-x: auto;  /* Allow horizontal scrolling if necessary */
+       text-align: center;
+       font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-color: transparent;
+       border: none;
+    }
+    </style>
+    <title>GO App UI Requirements</title>
+</head>
+<body>
+<div id="uiRequirementsPage" class="container">
+    <h3>Generate UI Requirements from Figma Spec
+
+    <!-- Input Box for Figma URL -->
+    <label for="figmaUrl">Enter Figma URL:</label><br><br>
+    <input type="text" id="figmaUrl" name="figmaUrl" placeholder="https://www.figma.com/..." required><br><br>
+
+    <!-- Text Area for Context Content (Description of Figma Spec) -->
+    <label for="contextContent">Context Content (Description of Figma Spec):</label><br><br>
+    <textarea id="contextContent" name="contextContent" rows="4" cols="50" placeholder="Enter a detailed description of the Figma specification..."></textarea><br><br>
+
+    <!-- Text Area for Prompt/Instructions -->
+    <label for="prompt">Prompt/Instructions for Azure Computer Vision:</label><br><br>
+    <textarea id="prompt" name="prompt" rows="4" cols="50" placeholder="Enter instructions for Azure Computer Vision, e.g., The 'System Requirement' should have a 'Title', 'Description', 'Acceptance Criteria'..."></textarea><br><br>
+
+    <!-- Area to Paste Figma Screen Image -->
+    <label for="figmaImage">Upload or Paste Figma Screen Image:</label><br><br>
+    <input type="file" id="figmaImage" name="figmaImage" accept="image/png, image/jpeg"><br><br>
+    <!-- Generate Requirements Button -->
+    <button type="button" onclick="generateRequirement()">Generate Requirement</button><br><br>
+    </h3>
+    <!-- Text Area for System Element Requirements Output -->
+    <div id="requirementOutput" class="hidden">
+        <h3>Generated System Element Requirements:
+        <textarea id="generatedRequirements" name="generatedRequirements" rows="6" cols="50" readonly></textarea>
+        </h3>
+    </div>
+</div>
+
+<script>
+    function generateRequirement() {
+        // Fetch context content, prompt, and image file
+        const contextContent = document.getElementById('contextContent').value;
+        const prompt = document.getElementById('prompt').value;
+        const figmaImage = document.getElementById('figmaImage').files[0];
+
+        // Perform basic validation
+        if (!contextContent || !prompt || !figmaImage) {
+            alert("Please fill out all fields and upload an image.");
+            return;
+        }
+
+        // Create a FormData object to send the image to the backend
+        const formData = new FormData();
+        formData.append("file", figmaImage);
+
+        // Call backend API to analyze the Figma image
+        fetch('/analyze-figma-image', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // After receiving the image description from Azure Computer Vision
+            const imageDescription = data.description; // Adjust according to API response
+
+            // Create the final prompt for Azure AI based on the image description
+            const fullPrompt = prompt + "\n\n" + "Description of UI:\n" + imageDescription;
+
+            // Send prompt to the backend to generate system requirements using Azure AI
+            return fetch('/generate-system-requirements', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ prompt: fullPrompt })
+            });
+        })
+        .then(response => response.json())
+        .then(result => {
+            // Display the generated requirements in the text area
+            document.getElementById('requirementOutput').classList.remove('hidden');
+            document.getElementById('generatedRequirements').value = JSON.stringify(result, null, 2);
+        })
+        .catch(error => {
+            console.error('Error generating requirements:', error);
+        });
+    }
+</script>
+</body>
+</html>
