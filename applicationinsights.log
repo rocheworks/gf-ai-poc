@@ -2115,3 +2115,9 @@ This message is only logged the first time it occurs after startup.
 2024-09-29 16:58:52.234+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
 2024-09-30 09:31:35.324+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 7292, JVM running for 4.625 s)
 2024-09-30 09:31:35.340+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-09-30 09:34:25.645+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 4084, JVM running for 3.603 s)
+2024-09-30 09:34:25.653+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-09-30 09:56:46.395+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 1708, JVM running for 4.765 s)
+2024-09-30 09:56:46.406+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-09-30 11:58:39.079+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 5308, JVM running for 4.829 s)
+2024-09-30 11:58:39.093+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4

@@ -114,6 +114,7 @@ public class MockGOAppController {
 
     // ================= Search Proxy for Azure Cognitive Search ================= //
     @GetMapping("/search")
+    @CrossOrigin(origins = "*")
     public ResponseEntity<String> searchPump(@RequestParam("q") String query) {
         // Construct the search URL with the query term
         String searchUrl = AZURE_SEARCH_URL + query + "&$select=pump_name,feature_description,replacement_pump_name&$count=true";
