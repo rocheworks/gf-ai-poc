@@ -25,6 +25,7 @@ import com.grundfos.pump.replace.model.MetadataOutput;
 import com.grundfos.pump.replace.model.MetadataInput;
 
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class MockGOAppController {
 
     private final Logger logger = LoggerFactory.getLogger(MockGOAppController.class);
