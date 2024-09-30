@@ -144,7 +144,6 @@
     };
 
     function fetchSearchResults(query) {
-        //const searchUrl = `http://localhost:8080/search?q=${query}`;
         const searchUrl = `https://gf-goapp-d-bccshffchta4f5ek.westeurope-01.azurewebsites.net/search?q=${query}`;
         fetch(searchUrl)
             .then((response) => response.json())
