@@ -138,35 +138,36 @@
     <title>GO App UI Requirements</title>
 </head>
 <body>
-<div id="uiRequirementsPage" class="container">
-    <h3>Generate UI Requirements from Figma Spec
+<div><a href="mock-go-dashboard.html" class="back-button">Back to Dashboard</a>
+    <div id="uiRequirementsPage" class="container">
+        <h3>Generate UI Requirements from Figma Spec
 
-    <!-- Input Box for Figma URL -->
-    <label for="figmaUrl">Enter Figma URL:</label><br><br>
-    <input type="text" id="figmaUrl" name="figmaUrl" placeholder="https://www.figma.com/..." required><br><br>
+        <!-- Input Box for Figma URL -->
+        <label for="figmaUrl">Enter Figma URL:</label><br><br>
+        <input type="text" id="figmaUrl" name="figmaUrl" placeholder="https://www.figma.com/..." required><br><br>
 
-    <!-- Text Area for Context Content (Description of Figma Spec) -->
-    <label for="contextContent">Context Content (Description of Figma Spec):</label><br><br>
-    <textarea id="contextContent" name="contextContent" rows="4" cols="50" placeholder="Enter a detailed description of the Figma specification..."></textarea><br><br>
+        <!-- Text Area for Context Content (Description of Figma Spec) -->
+        <label for="contextContent">Context Content (Description of Figma Spec):</label><br><br>
+        <textarea id="contextContent" name="contextContent" rows="4" cols="50" placeholder="Enter a detailed description of the Figma specification..."></textarea><br><br>
 
-    <!-- Text Area for Prompt/Instructions -->
-    <label for="prompt">Prompt/Instructions for Azure Computer Vision:</label><br><br>
-    <textarea id="prompt" name="prompt" rows="4" cols="50" placeholder="Enter instructions for Azure Computer Vision, e.g., The 'System Requirement' should have a 'Title', 'Description', 'Acceptance Criteria'..."></textarea><br><br>
+        <!-- Text Area for Prompt/Instructions -->
+        <label for="prompt">Prompt/Instructions for Azure Computer Vision:</label><br><br>
+        <textarea id="prompt" name="prompt" rows="4" cols="50" placeholder="Enter instructions for Azure Computer Vision, e.g., The 'System Requirement' should have a 'Title', 'Description', 'Acceptance Criteria'..."></textarea><br><br>
 
-    <!-- Area to Paste Figma Screen Image -->
-    <label for="figmaImage">Upload or Paste Figma Screen Image:</label><br><br>
-    <input type="file" id="figmaImage" name="figmaImage" accept="image/png, image/jpeg"><br><br>
-    <!-- Generate Requirements Button -->
-    <button type="button" onclick="generateRequirement()">Generate Requirement</button><br><br>
-    </h3>
-    <!-- Text Area for System Element Requirements Output -->
-    <div id="requirementOutput" class="hidden">
-        <h3>Generated System Element Requirements:
-        <textarea id="generatedRequirements" name="generatedRequirements" rows="6" cols="50" readonly></textarea>
+        <!-- Area to Paste Figma Screen Image -->
+        <label for="figmaImage">Upload or Paste Figma Screen Image:</label><br><br>
+        <input type="file" id="figmaImage" name="figmaImage" accept="image/png, image/jpeg"><br><br>
+        <!-- Generate Requirements Button -->
+        <button type="button" onclick="generateRequirement()">Generate Requirement</button><br><br>
         </h3>
+        <!-- Text Area for System Element Requirements Output -->
+        <div id="requirementOutput" class="hidden">
+            <h3>Generated System Element Requirements:
+            <textarea id="generatedRequirements" name="generatedRequirements" rows="6" cols="50" readonly></textarea>
+            </h3>
+        </div>
     </div>
 </div>
-
 <script>
     function generateRequirement() {
         // Fetch context content, prompt, and image file
