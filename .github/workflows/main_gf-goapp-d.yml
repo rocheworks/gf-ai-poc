@@ -32,22 +32,23 @@ jobs:
           path: '${{ github.workspace }}/target/*.jar'
 
   deploy:
-  runs-on: ubuntu-latest
-  needs: build
-  environment:
-    name: 'Production'
-    url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-  steps:
-    - name: Download artifact from build job
-      uses: actions/download-artifact@v4
-      with:
-        name: java-app
-    - name: Deploy to Azure Web App
-      id: deploy-to-webapp
-      uses: azure/webapps-deploy@v3
-      with:
-        app-name: 'GF-GoApp-D'
-        slot-name: 'Production'
-        package: '*.jar'
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03C34953158B4327BEF82013F7948D7A }}
-      if: "!contains(github.event.head_commit.message, '[skip deploy]')"
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: java-app
+      
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'GF-GoApp-D'
+          slot-name: 'Production'
+          package: '*.jar'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03C34953158B4327BEF82013F7948D7A }}
