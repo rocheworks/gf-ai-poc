@@ -162,6 +162,15 @@
         font-family: 'Aptos', sans-serif;
         font-size: 10px;
     }
+    .install-btn {
+        border: none;
+        padding: 5px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 10px;
+        margin: 7px 0;
+        font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+    }
     .back-button {
             border: none;
             padding: 5px 12px;
@@ -269,7 +278,8 @@
                           <td>${eventName}</td>
                           <td>${appId}</td>
                           <td>${userName}</td>
-                          <td><a href="${chartLink}" target="_blank">View Chart</a></td>
+                          <td><button class="install-btn" id="installButton" onclick="sendPushNotice()">push notice</button></td>
+                          <!--<td><a href="${chartLink}" target="_blank">View Chart</a></td>-->
                           </tr>`;
             });
 
@@ -293,6 +303,14 @@
             function prevPage() {
                 currentPage--;
                 displayTable(events, currentPage);
+            }
+            function sendPushNotice() {
+                fetch('/api/push-notice')
+                    .then(response => response.text())
+                    .then(data => {
+                    console.log(data);             })
+                    .catch(error => { console.error('Error:', error);
+                });
             }
     window.onpopstate = function(){
        window.location.href = "mock-go-login.html";

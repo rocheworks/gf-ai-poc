@@ -144,7 +144,8 @@
     };
 
     function fetchSearchResults(query) {
-        const searchUrl = `https://gf-goapp-d-bccshffchta4f5ek.westeurope-01.azurewebsites.net/search?q=${query}`;
+        const searchUrl = `http://localhost:8080/search?q=${query}`;
+        //const searchUrl = `https://gf-goapp-d-bccshffchta4f5ek.westeurope-01.azurewebsites.net/search?q=${query}`;
         fetch(searchUrl)
             .then((response) => response.json())
             .then((data) => {
@@ -178,7 +179,8 @@
 <td>${result.pump_name}</td>
 <td>${result.feature_description}</td>
 <td>${result.replacement_pump_name}</td>
-<!--<td><button class="install-btn" id="installButton${i}" disabled>replace</button></td>-->
+<!--<td>${result.pump_url}</td>
+<td><button class="install-btn" id="installButton${i}" disabled>replace</button></td>-->
 <td><a href="${result.pump_url}" target="_blank">view-product</a></td>
 </tr>
                 `;

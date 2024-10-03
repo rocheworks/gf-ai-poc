@@ -1,7 +1,6 @@
 package com.grundfos.pump.replace.controller;
 
 import com.grundfos.pump.replace.services.ConvertUTCService;
-import com.grundfos.pump.replace.services.NotificationService;
 import com.microsoft.applicationinsights.TelemetryClient;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
@@ -18,8 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import com.grundfos.pump.replace.model.MetadataOutput;
 import com.grundfos.pump.replace.model.MetadataInput;
@@ -54,7 +52,6 @@ public class MockGOAppController {
 
     @PostMapping("/login")
     public Map<String, String> loginUser(@RequestBody Map<String, String> loginData, HttpServletRequest request) {
-        NotificationService notificationService = new NotificationService();
         userName = loginData.get("userName");
         logger.info("username in login: "+userName);
         String password = loginData.get("password");
@@ -62,7 +59,7 @@ public class MockGOAppController {
             request.getSession().setAttribute("userName", userName);
             Map<String, String> response = new HashMap<>();
             response.put("userName", userName);
-            telemetryClient.trackEvent("mockGOvisits1", response, null);
+            telemetryClient.trackEvent("mockGOvisits3", response, null);
             telemetryClient.flush();
             return response;
         } else {
@@ -87,6 +84,23 @@ public class MockGOAppController {
         telemetryClient.trackEvent("TestEventFromAzureWebApp-revised");
         telemetryClient.flush();
         return ResponseEntity.ok("Test Event Tracked Successfully");
+    }
+
+    @GetMapping("/reviewRemarks")
+    public String getOneReviewRemark() {
+        List<String> reviewRemarks = new ArrayList<>();
+        reviewRemarks.add("The application often fails to find the product. E.g. Magna 32-120 PN 96401840");
+        reviewRemarks.add("Product number wasn't recognised. Phoned Grundfos who said existing pump was OEM unit made for British Gas...");
+        reviewRemarks.add("Total crap!!! This app is garbage");
+        reviewRemarks.add("It merely suggested I replace my old pump with the exact same model...");
+        reviewRemarks.add("Germany belongs here and not such nonsense for Germany to have its own app...");
+        reviewRemarks.add("One big mistake and no concrete information. I had to pick up the phone and call");
+        reviewRemarks.add("Plumbers, heating engineers - GET THIS APP.");
+        reviewRemarks.add("It does not read QR codes, and when entered manually, it does not search for a popular pump.");
+        reviewRemarks.add("I'm a very experienced gas safe engineer. This app doesn't work which is disappointing!");
+
+        Random random = new Random();
+        return reviewRemarks.get(random.nextInt(reviewRemarks.size()));
     }
 
     @PostMapping(path = "metadata", consumes = "application/json", produces = "application/json")
@@ -117,7 +131,7 @@ public class MockGOAppController {
     @CrossOrigin(origins = "*")
     public ResponseEntity<String> searchPump(@RequestParam("q") String query) {
         // Construct the search URL with the query term
-        String searchUrl = AZURE_SEARCH_URL + query + "&$select=pump_name,feature_description,replacement_pump_name&$count=true";
+        String searchUrl = AZURE_SEARCH_URL + query + "&$select=pump_name,feature_description,replacement_pump_name,pump_url&$count=true";
         System.out.println("searchURL:: "+searchUrl);
         // Create headers and include the Azure Search API key
         HttpHeaders headers = new HttpHeaders();
