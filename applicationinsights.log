@@ -2267,3 +2267,726 @@ This message is only logged the first time it occurs after startup.
 
 2024-10-03 10:54:16.153+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - In the last 5 minutes, the following operation has failed 1 times (out of 354): Pinging live metrics endpoint:
  * java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (1 times)
+2024-10-03 12:55:54.125+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 28436, JVM running for 15.796 s)
+2024-10-03 12:55:54.138+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:00:04.301+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 9872, JVM running for 4.637 s)
+2024-10-03 13:00:04.313+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:11:24.297+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31660, JVM running for 4.991 s)
+2024-10-03 13:11:24.304+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:13:57.716+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 38104, JVM running for 3.895 s)
+2024-10-03 13:13:57.726+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:14:35.938+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 392, JVM running for 3.392 s)
+2024-10-03 13:14:35.948+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:15:35.136+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29468, JVM running for 3.583 s)
+2024-10-03 13:15:35.144+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:18:16.880+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 32268, JVM running for 3.365 s)
+2024-10-03 13:18:16.889+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:18:37.702+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30544, JVM running for 4.062 s)
+2024-10-03 13:18:37.710+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:21:55.771+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 6168, JVM running for 12.526 s)
+2024-10-03 13:21:55.779+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:23:21.626+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 19164, JVM running for 3.37 s)
+2024-10-03 13:23:21.633+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:25:48.978+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 22312, JVM running for 3.38 s)
+2024-10-03 13:25:48.986+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:30:18.496+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10216, JVM running for 4.137 s)
+2024-10-03 13:30:18.505+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:34:34.499+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 38876, JVM running for 4.257 s)
+2024-10-03 13:34:34.507+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:42:47.224+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33240, JVM running for 5.159 s)
+2024-10-03 13:42:47.234+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 13:53:05.346+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36796, JVM running for 5.283 s)
+2024-10-03 13:53:05.355+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 14:04:34.927+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30020, JVM running for 4.009 s)
+2024-10-03 14:04:34.936+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 14:17:27.060+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16796, JVM running for 4.063 s)
+2024-10-03 14:17:27.069+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 14:42:25.494+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 3856, JVM running for 5.303 s)
+2024-10-03 14:42:25.505+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 14:50:06.036+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 2856, JVM running for 6.397 s)
+2024-10-03 14:50:06.048+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 14:52:03.735+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 7292, JVM running for 7.095 s)
+2024-10-03 14:52:03.750+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 15:00:07.698+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31284, JVM running for 3.825 s)
+2024-10-03 15:00:07.709+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 15:00:43.242+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29272, JVM running for 3.47 s)
+2024-10-03 15:00:43.251+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 15:01:42.454+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 18924, JVM running for 3.463 s)
+2024-10-03 15:01:42.464+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 15:15:44.109+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30372, JVM running for 4.6 s)
+2024-10-03 15:15:44.120+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 15:47:32.293+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37596, JVM running for 13.531 s)
+2024-10-03 15:47:32.302+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 15:52:16.003+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 6592, JVM running for 5.577 s)
+2024-10-03 15:52:16.019+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-03 20:10:11.622+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - Pinging live metrics endpoint: reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (future warnings will be aggregated and logged once every 5 minutes)
+reactor.core.Exceptions$ReactiveException: reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:98)
+	at reactor.core.publisher.Mono.block(Mono.java:1742)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulsePingSender.ping(QuickPulsePingSender.java:102)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.ping(QuickPulseCoordinator.java:99)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.run(QuickPulseCoordinator.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:100)
+		... 5 common frames omitted
+Caused by: reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+2024-10-04 01:57:52.255+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16744, JVM running for 15.347 s)
+2024-10-04 01:57:52.270+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-04 13:22:56.183+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - Pinging live metrics endpoint: java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (future warnings will be aggregated and logged once every 5 minutes)
+reactor.core.Exceptions$ReactiveException: java.net.SocketException: Connection reset
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:98)
+	at reactor.core.publisher.Mono.block(Mono.java:1742)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulsePingSender.ping(QuickPulsePingSender.java:102)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.ping(QuickPulseCoordinator.java:99)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.run(QuickPulseCoordinator.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:100)
+		... 5 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2024-10-04 17:21:40.882+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 18528, JVM running for 9.511 s)
+2024-10-04 17:21:40.896+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-04 23:33:39.430+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - Pinging live metrics endpoint: java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (future warnings will be aggregated and logged once every 5 minutes)
+reactor.core.Exceptions$ReactiveException: java.net.SocketException: Connection reset
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:98)
+	at reactor.core.publisher.Mono.block(Mono.java:1742)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulsePingSender.ping(QuickPulsePingSender.java:102)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.ping(QuickPulseCoordinator.java:99)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.run(QuickPulseCoordinator.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:100)
+		... 5 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2024-10-04 23:51:49.340+05:30 ERROR c.a.m.o.e.i.q.QuickPulsePingSender - 
+*************************
+Application Insights Java failed to connect to https://rt.services.visualstudio.com/QuickPulseService.svc
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://rt.services.visualstudio.com/QuickPulseService.svc
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-04 23:51:49.915+05:30 ERROR c.a.m.o.e.i.p.TelemetryPipeline - 
+*************************
+Application Insights Java failed to connect to https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-07 09:47:40.363+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service (retry from disk): Received response code 400 (103: Field 'time' on type 'Envelope' is older than the allowed min date. Expected: now - 172800000ms) (future warnings will be aggregated and logged once every 5 minutes)
+2024-10-07 11:40:27.157+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 2644, JVM running for 9.907 s)
+2024-10-07 11:40:27.168+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-07 12:26:14.546+05:30 ERROR c.a.m.o.e.i.q.QuickPulsePingSender - 
+*************************
+Application Insights Java failed to connect to https://rt.services.visualstudio.com/QuickPulseService.svc
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://rt.services.visualstudio.com/QuickPulseService.svc
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-07 16:13:40.491+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 25548, JVM running for 5.185 s)
+2024-10-07 16:13:40.503+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-08 10:42:13.143+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 22916, JVM running for 11.731 s)
+2024-10-08 10:42:13.152+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-08 10:57:46.092+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21208, JVM running for 12.161 s)
+2024-10-08 10:57:46.102+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-08 12:08:34.943+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 13632, JVM running for 5.041 s)
+2024-10-08 12:08:34.955+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-08 12:12:05.675+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 14684, JVM running for 4.176 s)
+2024-10-08 12:12:05.686+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-08 13:20:54.895+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 23440, JVM running for 5.591 s)
+2024-10-08 13:20:54.906+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-09 08:28:05.674+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 14352, JVM running for 5.609 s)
+2024-10-09 08:28:05.686+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-09 09:07:47.171+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 23340, JVM running for 7.545 s)
+2024-10-09 09:07:47.183+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-09 21:00:42.707+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - Pinging live metrics endpoint: java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (future warnings will be aggregated and logged once every 5 minutes)
+reactor.core.Exceptions$ReactiveException: java.net.SocketException: Connection reset
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:98)
+	at reactor.core.publisher.Mono.block(Mono.java:1742)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulsePingSender.ping(QuickPulsePingSender.java:102)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.ping(QuickPulseCoordinator.java:99)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.run(QuickPulseCoordinator.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:100)
+		... 5 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2024-10-09 21:00:44.617+05:30 ERROR c.a.m.o.e.i.p.TelemetryPipeline - 
+*************************
+Application Insights Java failed to connect to https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-09 21:00:47.825+05:30 ERROR c.a.m.o.e.i.q.QuickPulsePingSender - 
+*************************
+Application Insights Java failed to connect to https://rt.services.visualstudio.com/QuickPulseService.svc
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://rt.services.visualstudio.com/QuickPulseService.svc
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-10 03:29:54.987+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - In the last 5 minutes, the following operation has failed 1 times (out of 32): Pinging live metrics endpoint:
+ * java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (1 times)
+2024-10-11 15:20:48.474+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10896, JVM running for 5.098 s)
+2024-10-11 15:20:48.487+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 16:43:04.363+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34456, JVM running for 12.331 s)
+2024-10-11 16:43:04.377+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 16:50:29.224+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30784, JVM running for 3.831 s)
+2024-10-11 16:50:29.233+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 16:55:26.434+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27080, JVM running for 11.823 s)
+2024-10-11 16:55:26.443+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:07:39.087+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 6652, JVM running for 4.449 s)
+2024-10-11 17:07:39.100+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:13:43.611+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 360, JVM running for 3.534 s)
+2024-10-11 17:13:43.622+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:17:57.266+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 28160, JVM running for 4.164 s)
+2024-10-11 17:17:57.280+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:21:17.399+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 23004, JVM running for 3.834 s)
+2024-10-11 17:21:17.407+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:24:40.388+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30280, JVM running for 13.044 s)
+2024-10-11 17:24:40.397+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:26:11.140+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 17952, JVM running for 4.159 s)
+2024-10-11 17:26:11.154+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:28:09.385+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21596, JVM running for 3.943 s)
+2024-10-11 17:28:09.394+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:34:18.852+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31568, JVM running for 4.618 s)
+2024-10-11 17:34:18.863+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:36:57.569+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31452, JVM running for 5.237 s)
+2024-10-11 17:36:57.583+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:42:44.406+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33008, JVM running for 3.975 s)
+2024-10-11 17:42:44.420+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:43:28.389+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10536, JVM running for 4.056 s)
+2024-10-11 17:43:28.397+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:44:17.401+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 5688, JVM running for 4.008 s)
+2024-10-11 17:44:17.411+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:45:11.892+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30728, JVM running for 3.867 s)
+2024-10-11 17:45:11.901+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 17:59:17.078+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30888, JVM running for 4.269 s)
+2024-10-11 17:59:17.090+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 18:10:58.624+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31660, JVM running for 4.366 s)
+2024-10-11 18:10:58.635+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-11 21:34:30.497+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service (retry from disk): Connection reset (https://westeurope-5.in.applicationinsights.azure.com/v2.1/track) (will be retried again) (future warnings will be aggregated and logged once every 5 minutes)
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-13 14:20:59.521+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27380, JVM running for 5.419 s)
+2024-10-13 14:20:59.533+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-13 14:23:18.626+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34112, JVM running for 4.295 s)
+2024-10-13 14:23:18.640+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-13 14:34:20.452+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20692, JVM running for 3.754 s)
+2024-10-13 14:34:20.462+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-13 14:39:32.287+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 26152, JVM running for 12.256 s)
+2024-10-13 14:39:32.295+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-13 14:42:25.093+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 11300, JVM running for 3.903 s)
+2024-10-13 14:42:25.104+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-13 14:44:07.280+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30276, JVM running for 3.836 s)
+2024-10-13 14:44:07.289+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-13 15:01:13.356+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 25212, JVM running for 11.826 s)
+2024-10-13 15:01:13.366+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 01:03:21.993+05:30 ERROR c.a.m.o.e.i.q.QuickPulsePingSender - 
+*************************
+Application Insights Java failed to connect to https://rt.services.visualstudio.com/QuickPulseService.svc
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://rt.services.visualstudio.com/QuickPulseService.svc
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-14 09:00:37.317+05:30 ERROR c.a.m.o.e.i.p.TelemetryPipeline - 
+*************************
+Application Insights Java failed to connect to https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-14 10:30:26.770+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10716, JVM running for 13.497 s)
+2024-10-14 10:30:26.784+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 11:52:23.714+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 14256, JVM running for 12.686 s)
+2024-10-14 11:52:23.728+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 13:21:56.548+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31500, JVM running for 5.248 s)
+2024-10-14 13:21:56.561+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 13:31:22.870+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 35012, JVM running for 4.67 s)
+2024-10-14 13:31:22.881+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 13:33:25.632+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21740, JVM running for 4.563 s)
+2024-10-14 13:33:25.642+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 13:50:39.813+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31916, JVM running for 5.239 s)
+2024-10-14 13:50:39.827+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 14:02:26.423+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 11008, JVM running for 5.396 s)
+2024-10-14 14:02:26.437+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 14:07:48.466+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 23676, JVM running for 5.219 s)
+2024-10-14 14:07:48.478+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 14:41:57.107+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 32984, JVM running for 4.738 s)
+2024-10-14 14:41:57.117+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 14:50:07.565+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 1352, JVM running for 4.828 s)
+2024-10-14 14:50:07.578+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 15:07:27.873+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31328, JVM running for 5.588 s)
+2024-10-14 15:07:27.886+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 15:28:54.139+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34888, JVM running for 5.082 s)
+2024-10-14 15:28:54.151+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 15:41:24.959+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 17656, JVM running for 12.729 s)
+2024-10-14 15:41:24.971+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 16:18:06.310+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29200, JVM running for 4.434 s)
+2024-10-14 16:18:06.325+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 16:30:57.376+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27760, JVM running for 4.41 s)
+2024-10-14 16:30:57.387+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 16:32:56.107+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10252, JVM running for 4.162 s)
+2024-10-14 16:32:56.123+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 16:49:15.863+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 19876, JVM running for 4.374 s)
+2024-10-14 16:49:15.878+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 17:19:10.713+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21684, JVM running for 4.508 s)
+2024-10-14 17:19:10.724+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 18:23:40.656+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 1640, JVM running for 5.265 s)
+2024-10-14 18:23:40.667+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 18:36:52.437+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36344, JVM running for 4.318 s)
+2024-10-14 18:36:52.451+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 18:38:30.908+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 22648, JVM running for 12.182 s)
+2024-10-14 18:38:30.918+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 18:47:57.477+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 28668, JVM running for 4.399 s)
+2024-10-14 18:47:57.488+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 18:50:01.745+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 28092, JVM running for 3.93 s)
+2024-10-14 18:50:01.753+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 19:01:56.648+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36136, JVM running for 4.87 s)
+2024-10-14 19:01:56.659+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:00:30.823+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 18428, JVM running for 5.273 s)
+2024-10-14 20:00:30.835+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:25:29.334+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21748, JVM running for 12.634 s)
+2024-10-14 20:25:29.345+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:29:14.073+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34844, JVM running for 4.354 s)
+2024-10-14 20:29:14.084+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:31:03.266+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21868, JVM running for 4.403 s)
+2024-10-14 20:31:03.275+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:32:06.352+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 32616, JVM running for 3.848 s)
+2024-10-14 20:32:06.362+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:34:28.370+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33824, JVM running for 3.932 s)
+2024-10-14 20:34:28.379+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:37:49.077+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37036, JVM running for 3.956 s)
+2024-10-14 20:37:49.085+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 20:40:14.431+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37052, JVM running for 12.342 s)
+2024-10-14 20:40:14.441+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:20:51.248+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36640, JVM running for 12.926 s)
+2024-10-14 21:20:51.260+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:23:12.737+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34640, JVM running for 4.042 s)
+2024-10-14 21:23:12.746+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:23:56.286+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34980, JVM running for 3.878 s)
+2024-10-14 21:23:56.296+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:25:47.218+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37824, JVM running for 12.007 s)
+2024-10-14 21:25:47.228+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:26:47.168+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 26108, JVM running for 3.844 s)
+2024-10-14 21:26:47.181+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:27:58.372+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27056, JVM running for 3.912 s)
+2024-10-14 21:27:58.384+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:29:26.737+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 19852, JVM running for 3.957 s)
+2024-10-14 21:29:26.745+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:31:07.843+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21040, JVM running for 3.845 s)
+2024-10-14 21:31:07.851+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:32:22.216+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16532, JVM running for 3.856 s)
+2024-10-14 21:32:22.226+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:33:18.967+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36276, JVM running for 3.939 s)
+2024-10-14 21:33:18.979+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:33:55.401+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 11080, JVM running for 4.381 s)
+2024-10-14 21:33:55.412+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:35:23.645+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21412, JVM running for 4.107 s)
+2024-10-14 21:35:23.657+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 21:44:17.798+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 26300, JVM running for 3.968 s)
+2024-10-14 21:44:17.806+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 22:11:46.560+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 17004, JVM running for 13.414 s)
+2024-10-14 22:11:46.573+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 22:12:35.476+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 18684, JVM running for 4.007 s)
+2024-10-14 22:12:35.486+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 22:21:59.836+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 22152, JVM running for 5.304 s)
+2024-10-14 22:21:59.852+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 22:29:39.991+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36060, JVM running for 11.971 s)
+2024-10-14 22:29:40.004+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-14 22:33:03.633+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 17916, JVM running for 3.927 s)
+2024-10-14 22:33:03.643+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 00:26:39.136+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - Pinging live metrics endpoint: java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (future warnings will be aggregated and logged once every 5 minutes)
+reactor.core.Exceptions$ReactiveException: java.net.SocketException: Connection reset
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:98)
+	at reactor.core.publisher.Mono.block(Mono.java:1742)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulsePingSender.ping(QuickPulsePingSender.java:102)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.ping(QuickPulseCoordinator.java:99)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.run(QuickPulseCoordinator.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:100)
+		... 5 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2024-10-15 00:27:33.775+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service (retry from disk): Connection reset (https://westeurope-5.in.applicationinsights.azure.com/v2.1/track) (will be retried again) (future warnings will be aggregated and logged once every 5 minutes)
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-15 00:46:39.161+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - In the last 5 minutes, the following operation has failed 1 times (out of 58): Pinging live metrics endpoint:
+ * java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (1 times)
+2024-10-15 00:47:33.801+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - In the last 5 minutes, the following operation has failed 1 times (out of 2): Sending telemetry to the ingestion service (retry from disk):
+ * Connection reset (https://westeurope-5.in.applicationinsights.azure.com/v2.1/track) (will be retried again) (1 times)
+2024-10-15 03:17:36.414+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30548, JVM running for 13.615 s)
+2024-10-15 03:17:36.427+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:24:51.135+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27316, JVM running for 4.296 s)
+2024-10-15 03:24:51.147+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:27:42.459+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37388, JVM running for 12.671 s)
+2024-10-15 03:27:42.472+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:33:58.918+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33660, JVM running for 4.053 s)
+2024-10-15 03:33:58.926+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:35:52.117+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16972, JVM running for 3.844 s)
+2024-10-15 03:35:52.127+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:36:46.918+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 32700, JVM running for 3.813 s)
+2024-10-15 03:36:46.928+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:37:43.581+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36256, JVM running for 4.233 s)
+2024-10-15 03:37:43.593+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:47:27.120+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 12044, JVM running for 3.899 s)
+2024-10-15 03:47:27.127+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:48:26.656+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16652, JVM running for 3.95 s)
+2024-10-15 03:48:26.670+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:50:36.324+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21000, JVM running for 3.851 s)
+2024-10-15 03:50:36.334+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:53:01.925+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 5348, JVM running for 3.998 s)
+2024-10-15 03:53:01.934+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:55:09.135+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37680, JVM running for 3.854 s)
+2024-10-15 03:55:09.146+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:58:01.989+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36980, JVM running for 12.067 s)
+2024-10-15 03:58:01.999+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 03:59:26.051+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36776, JVM running for 3.803 s)
+2024-10-15 03:59:26.059+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 04:00:11.111+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 36872, JVM running for 3.96 s)
+2024-10-15 04:00:11.123+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 04:01:15.283+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37032, JVM running for 13.68 s)
+2024-10-15 04:01:15.293+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 04:03:03.218+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33240, JVM running for 4.582 s)
+2024-10-15 04:03:03.232+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 12:59:52.294+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 22656, JVM running for 13.6 s)
+2024-10-15 12:59:52.309+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 13:14:54.267+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29472, JVM running for 4.704 s)
+2024-10-15 13:14:54.278+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 13:17:22.188+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20208, JVM running for 4.18 s)
+2024-10-15 13:17:22.197+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 13:32:28.745+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20776, JVM running for 17.786 s)
+2024-10-15 13:32:28.759+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 14:28:10.937+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33744, JVM running for 4.466 s)
+2024-10-15 14:28:10.947+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 15:56:52.876+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16896, JVM running for 4.491 s)
+2024-10-15 15:56:52.887+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 16:10:40.650+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 6280, JVM running for 4.17 s)
+2024-10-15 16:10:40.661+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 16:13:37.118+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37780, JVM running for 4.155 s)
+2024-10-15 16:13:37.133+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 16:29:56.888+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 11936, JVM running for 4.735 s)
+2024-10-15 16:29:56.898+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 16:42:47.641+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29784, JVM running for 4.012 s)
+2024-10-15 16:42:47.652+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 16:56:36.966+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20216, JVM running for 4.541 s)
+2024-10-15 16:56:36.977+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 20:00:44.019+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - Pinging live metrics endpoint: java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (future warnings will be aggregated and logged once every 5 minutes)
+reactor.core.Exceptions$ReactiveException: java.net.SocketException: Connection reset
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:98)
+	at reactor.core.publisher.Mono.block(Mono.java:1742)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulsePingSender.ping(QuickPulsePingSender.java:102)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.ping(QuickPulseCoordinator.java:99)
+	at com.azure.monitor.opentelemetry.exporter.implementation.quickpulse.QuickPulseCoordinator.run(QuickPulseCoordinator.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:100)
+		... 5 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2024-10-15 20:00:49.055+05:30 ERROR c.a.m.o.e.i.q.QuickPulsePingSender - 
+*************************
+Application Insights Java failed to connect to https://rt.services.visualstudio.com/QuickPulseService.svc
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://rt.services.visualstudio.com/QuickPulseService.svc
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-15 20:01:27.329+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service (retry from disk): Connection reset (https://westeurope-5.in.applicationinsights.azure.com/v2.1/track) (will be retried again) (future warnings will be aggregated and logged once every 5 minutes)
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-15 20:01:38.430+05:30 ERROR c.a.m.o.e.i.p.TelemetryPipeline - 
+*************************
+Application Insights Java failed to connect to https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+*************************
+
+Description:
+Unable to resolve host in url
+
+Action:
+Please update your network configuration so that the host in this url can be resolved: https://westeurope-5.in.applicationinsights.azure.com/v2.1/track
+Learn more about troubleshooting unknown host exception here: https://go.microsoft.com/fwlink/?linkid=2185830
+
+Note:
+This message is only logged the first time it occurs after startup.
+
+2024-10-15 20:10:44.054+05:30 WARN  c.a.m.o.e.i.q.QuickPulsePingSender - In the last 5 minutes, the following operation has failed 1 times (out of 10): Pinging live metrics endpoint:
+ * java.net.SocketException: Connection reset (https://westeurope.livediagnostics.monitor.azure.com/QuickPulseService.svc) (1 times)
+2024-10-15 20:11:27.358+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - In the last 5 minutes, the following operation has failed 1 times (out of 5): Sending telemetry to the ingestion service (retry from disk):
+ * Connection reset (https://westeurope-5.in.applicationinsights.azure.com/v2.1/track) (will be retried again) (1 times)
+2024-10-15 20:37:34.214+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29964, JVM running for 4.652 s)
+2024-10-15 20:37:34.224+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 20:38:33.389+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37140, JVM running for 3.641 s)
+2024-10-15 20:38:33.397+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 20:40:43.930+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 6248, JVM running for 3.97 s)
+2024-10-15 20:40:43.938+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 21:11:37.357+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 15624, JVM running for 3.958 s)
+2024-10-15 21:11:37.367+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 21:15:01.489+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 19472, JVM running for 4.248 s)
+2024-10-15 21:15:01.504+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 21:19:26.260+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 28948, JVM running for 4.047 s)
+2024-10-15 21:19:26.271+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 22:44:49.775+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 12284, JVM running for 5.023 s)
+2024-10-15 22:44:49.787+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 23:48:33.810+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 4360, JVM running for 4.649 s)
+2024-10-15 23:48:33.823+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-15 23:55:55.729+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16200, JVM running for 3.66 s)
+2024-10-15 23:55:55.739+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 00:00:21.933+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 1560, JVM running for 4.134 s)
+2024-10-16 00:00:21.945+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:07:01.860+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 11304, JVM running for 6.025 s)
+2024-10-16 07:07:01.875+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:16:32.417+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 13612, JVM running for 5.596 s)
+2024-10-16 07:16:32.430+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:20:27.136+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 5740, JVM running for 4.135 s)
+2024-10-16 07:20:27.144+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:33:07.360+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 18708, JVM running for 4.606 s)
+2024-10-16 07:33:07.373+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:36:31.043+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 9320, JVM running for 4.244 s)
+2024-10-16 07:36:31.053+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:40:31.543+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 14048, JVM running for 4.567 s)
+2024-10-16 07:40:31.551+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:50:20.036+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29840, JVM running for 5.115 s)
+2024-10-16 07:50:20.056+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 07:56:15.879+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10204, JVM running for 12.874 s)
+2024-10-16 07:56:15.895+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:20:33.541+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 21604, JVM running for 15.52 s)
+2024-10-16 08:20:33.552+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:23:53.923+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 23496, JVM running for 16.198 s)
+2024-10-16 08:23:53.936+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:28:56.760+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30756, JVM running for 3.92 s)
+2024-10-16 08:28:56.768+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:40:59.388+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33444, JVM running for 4.205 s)
+2024-10-16 08:40:59.400+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:43:47.727+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 15580, JVM running for 4.925 s)
+2024-10-16 08:43:47.735+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:51:05.748+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 26092, JVM running for 3.919 s)
+2024-10-16 08:51:05.767+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:53:02.539+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 33404, JVM running for 3.835 s)
+2024-10-16 08:53:02.548+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:53:20.895+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31632, JVM running for 3.796 s)
+2024-10-16 08:53:20.902+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:54:51.481+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 19960, JVM running for 4.15 s)
+2024-10-16 08:54:51.490+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 08:55:12.895+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 16968, JVM running for 4.291 s)
+2024-10-16 08:55:12.913+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:08:48.291+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 23976, JVM running for 16.771 s)
+2024-10-16 09:08:48.304+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:11:54.162+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 19772, JVM running for 4.378 s)
+2024-10-16 09:11:54.174+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:15:12.922+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 26968, JVM running for 5.411 s)
+2024-10-16 09:15:12.934+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:31:37.712+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20604, JVM running for 4.346 s)
+2024-10-16 09:31:37.727+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:34:32.011+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37192, JVM running for 3.956 s)
+2024-10-16 09:34:32.022+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:36:30.171+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 9184, JVM running for 12.045 s)
+2024-10-16 09:36:30.179+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:40:34.757+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 15328, JVM running for 3.783 s)
+2024-10-16 09:40:34.769+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:41:46.988+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 22888, JVM running for 4.585 s)
+2024-10-16 09:41:46.999+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:43:06.343+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 29896, JVM running for 3.801 s)
+2024-10-16 09:43:06.353+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:58:18.243+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 15244, JVM running for 12.177 s)
+2024-10-16 09:58:18.253+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 09:59:52.742+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 14644, JVM running for 4.018 s)
+2024-10-16 09:59:52.753+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 10:18:20.568+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 34120, JVM running for 6.978 s)
+2024-10-16 10:18:20.591+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 10:27:50.885+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 6560, JVM running for 16.02 s)
+2024-10-16 10:27:50.895+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 10:32:37.037+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 10004, JVM running for 5.68 s)
+2024-10-16 10:32:37.051+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 10:36:59.846+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 17824, JVM running for 15.479 s)
+2024-10-16 10:36:59.861+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 10:44:42.400+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 15588, JVM running for 6.107 s)
+2024-10-16 10:44:42.412+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 10:53:06.653+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20292, JVM running for 5.89 s)
+2024-10-16 10:53:06.667+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 11:01:01.164+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 13640, JVM running for 5.63 s)
+2024-10-16 11:01:01.178+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 11:05:39.620+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 7804, JVM running for 5.243 s)
+2024-10-16 11:05:39.630+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 11:12:39.407+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 31056, JVM running for 7.549 s)
+2024-10-16 11:12:39.423+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 11:32:15.725+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27532, JVM running for 6.297 s)
+2024-10-16 11:32:15.739+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4

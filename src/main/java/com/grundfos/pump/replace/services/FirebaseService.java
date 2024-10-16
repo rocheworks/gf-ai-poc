@@ -13,12 +13,15 @@ public class FirebaseService {
     @PostConstruct
     public void initialize() {
         try {
-            FileInputStream serviceAccount = new FileInputStream("src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-b1081a1909.json");
+            System.out.println("In FirebaseService Initialize");
+            FileInputStream serviceAccount = new FileInputStream("./src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-99e4a641f9.json");
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                     .build();
+            System.out.println("Before initialize:: Firebase has been initialized successfully");
             if (FirebaseApp.getApps().isEmpty()) {
                 FirebaseApp.initializeApp(options);
+                System.out.println("Firebase has been initialized successfully");
             }
         } catch (Exception e) {
             e.printStackTrace();

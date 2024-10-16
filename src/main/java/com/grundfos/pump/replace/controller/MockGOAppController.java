@@ -123,7 +123,7 @@ public class MockGOAppController {
     }
 
     public void trackReplace() {
-        telemetryClient.trackEvent("mockGOvisits");
+        telemetryClient.trackEvent("mockGO1");
     }
 
     // ================= Search Proxy for Azure Cognitive Search ================= //

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        title{
+        title {
             margin-bottom: 20px;
             font-family: "Aptos", "Arial", sans-serif;
             font-size: 13px;
@@ -29,18 +29,32 @@
         }
         .container {
             text-align: center;
-            width: 100%;  /* Make the white background container wider */
-            max-width: 400px;  /* Limit the max width for larger screens */
-            margin: 0 auto;  /* Center the container */
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
-            background-color: white;  /* White background for the container */
+            background-color: white;
             border: 1px solid #ccc;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a slight shadow for a cleaner look */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .inputController {
             font-family: "Aptos", "Arial", sans-serif;
             font-size: 11px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .inputController label {
+            font-size: 10px;
+            margin-left: 10px;
+         }
+        .text-area-content {
+            font-family: "Aptos", "Arial", sans-serif;
+            font-size: 10px;
+            width: 500px; /* Adjust the width of the text area */
+            height: 80px;  /* Adjust the height of the text area */
         }
         h3 {
             color: #3f51b5;
@@ -63,76 +77,52 @@
             display: none;
         }
        table {
-        margin: 20px 0;  /* Center the table within the container */
-        width: 100%;  /* Keep table width at 80% of the container */
+        margin: 20px 0;
+        width: 100%;
         border-collapse: collapse;
         font-family: 'Aptos', sans-serif;
         font-size: 11px;
     }
-
     table th, table td {
         padding: 12px 15px;
         border: 1px solid #ddd;
         text-align: center;
     }
-
     table th {
-        background-color: lightblue;  /* Light blue header */
+        background-color: lightblue;
         color: black;
     }
-
-    table td{
+    table td {
        background-color: #fff;
     }
-
     tr:nth-child(even) {
-        background-color: #f2f2f2;  /* Alternate rows: grey */
+        background-color: #f2f2f2;
     }
-
     tr:nth-child(odd) {
         background-color: white;
     }
-
-    .pagination {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .pagination button {
-        font-size: 11px;
-        padding: 5px 10px;
-        margin: 0 5px;
+    .back-button {
+        border: none;
+        padding: 5px 12px;
+        border-radius: 4px;
         cursor: pointer;
-        border: 1px solid #ddd;
-        border-radius: 3px;
-        background-color: white;
-        color: #333;
+        margin: 50px;
+        font-family: "Aptos", "Helvetica", "Arial", sans-serif;
+        font-size: 11px;
     }
-
-    .pagination button:hover {
-        background-color: lightblue;
+    .filename-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
     }
-
-    .pagination button:disabled {
-        background-color: #f0f0f0;
-        color: #888;
-        cursor: not-allowed;
+    .filename-container label {
+        font-size: 11px;
     }
-    #replacementResults{
-       margin: 0 auto;
-       border: 1px solid #ddd;
-       border-radius: 5px;
-       width: 150%;
-       padding: 0;
-       overflow-x: auto;  /* Allow horizontal scrolling if necessary */
-       text-align: center;
-       font-family: "Aptos", "Helvetica", "Arial", sans-serif;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-       background-color: transparent;
-       border: none;
+    .filename-container input {
+        padding: 5px;
+        font-size: 11px;
+        width: 488px;
     }
     </style>
     <title>GO App UI Requirements</title>
@@ -140,83 +130,70 @@
 <body>
 <div><a href="mock-go-dashboard.html" class="back-button">Back to Dashboard</a>
     <div id="uiRequirementsPage" class="container">
-        <h3>Generate UI Requirements from Figma Spec
+        <h3>Requirements Management</h3>
 
-        <!-- Input Box for Figma URL -->
-        <label for="figmaUrl">Enter Figma URL:</label><br><br>
-        <input type="text" id="figmaUrl" name="figmaUrl" placeholder="https://www.figma.com/..." required><br><br>
-
-        <!-- Text Area for Context Content (Description of Figma Spec) -->
-        <label for="contextContent">Context Content (Description of Figma Spec):</label><br><br>
-        <textarea id="contextContent" name="contextContent" rows="4" cols="50" placeholder="Enter a detailed description of the Figma specification..."></textarea><br><br>
-
-        <!-- Text Area for Prompt/Instructions -->
-        <label for="prompt">Prompt/Instructions for Azure Computer Vision:</label><br><br>
-        <textarea id="prompt" name="prompt" rows="4" cols="50" placeholder="Enter instructions for Azure Computer Vision, e.g., The 'System Requirement' should have a 'Title', 'Description', 'Acceptance Criteria'..."></textarea><br><br>
-
-        <!-- Area to Paste Figma Screen Image -->
-        <label for="figmaImage">Upload or Paste Figma Screen Image:</label><br><br>
-        <input type="file" id="figmaImage" name="figmaImage" accept="image/png, image/jpeg"><br><br>
-        <!-- Generate Requirements Button -->
-        <button type="button" onclick="generateRequirement()">Generate Requirement</button><br><br>
-        </h3>
-        <!-- Text Area for System Element Requirements Output -->
-        <div id="requirementOutput" class="hidden">
-            <h3>Generated System Element Requirements:
-            <textarea id="generatedRequirements" name="generatedRequirements" rows="6" cols="50" readonly></textarea>
-            </h3>
+        <!-- Text Area for Stakeholder Requirements on the same line as the label -->
+        <div class="inputController">
+            <label for="stakeholderRequirement">Enter Stakeholder Requirement:</label>
+            <textarea class="text-area-content" id="stakeholderRequirement" name="stakeholderRequirement" placeholder="Enter the stakeholder requirement..."></textarea>
         </div>
+
+        <!-- File Name Input for System Requirements -->
+        <div class="filename-container">
+            <label for="fileName">System Requirements File Name:</label>
+            <input type="text" id="fileName" name="fileName" placeholder="Enter file name">
+        </div>
+
+        <!-- Download Button -->
+        <button type="button" onclick="downloadExcel()">Download System Requirements</button><br>
+
+        <!-- Output Table for System Requirements -->
+        <div id="requirementOutput" class="hidden">
+            <h3>Generated System Requirements and Test Cases</h3>
+            <table id="requirementsTable">
+                <thead>
+                <tr>
+                    <th>Requirement Type</th>
+                    <th>Description</th>
+                    <th>Test Case</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
     </div>
 </div>
+
 <script>
-    function generateRequirement() {
-        // Fetch context content, prompt, and image file
-        const contextContent = document.getElementById('contextContent').value;
-        const prompt = document.getElementById('prompt').value;
-        const figmaImage = document.getElementById('figmaImage').files[0];
+    function downloadExcel() {
+        const stakeholderRequirement = document.getElementById('stakeholderRequirement').value;
+        const fileName = document.getElementById('fileName').value || 'system-requirements'; // Default to 'system-requirements' if no file name is provided
 
-        // Perform basic validation
-        if (!contextContent || !prompt || !figmaImage) {
-            alert("Please fill out all fields and upload an image.");
-            return;
-        }
-
-        // Create a FormData object to send the image to the backend
-        const formData = new FormData();
-        formData.append("file", figmaImage);
-
-        // Call backend API to analyze the Figma image
-        fetch('/analyze-figma-image', {
+        // Send POST request to the backend to generate the Excel file
+        fetch('/generate-system-requirements', {
             method: 'POST',
-            body: formData
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ stakeholderRequirement })
         })
-        .then(response => response.json())
-        .then(data => {
-            // After receiving the image description from Azure Computer Vision
-            const imageDescription = data.description; // Adjust according to API response
-
-            // Create the final prompt for Azure AI based on the image description
-            const fullPrompt = prompt + "\n\n" + "Description of UI:\n" + imageDescription;
-
-            // Send prompt to the backend to generate system requirements using Azure AI
-            return fetch('/generate-system-requirements', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ prompt: fullPrompt })
-            });
-        })
-        .then(response => response.json())
-        .then(result => {
-            // Display the generated requirements in the text area
-            document.getElementById('requirementOutput').classList.remove('hidden');
-            document.getElementById('generatedRequirements').value = JSON.stringify(result, null, 2);
+        .then(response => response.blob())  // Get the binary data (blob)
+        .then(blob => {
+            // Create a link element, use it to download the file
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${fileName}.xlsx`;  // Set the file name using the input value
+            document.body.appendChild(a);  // Append the link element to the body
+            a.click();  // Programmatically click the link to trigger the download
+            a.remove();  // Remove the link element after downloading
         })
         .catch(error => {
-            console.error('Error generating requirements:', error);
+            console.error('Error downloading file:', error);
         });
     }
+
 </script>
 </body>
 </html>

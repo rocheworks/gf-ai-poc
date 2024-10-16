@@ -18,7 +18,7 @@ public class PushNotificationService {
     @Autowired
     private ResourceLoader resourceLoader;
 
-    FileInputStream SERVICE_ACCOUNT_FILE_PATH = new FileInputStream("./src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-b1081a1909.json");
+    FileInputStream SERVICE_ACCOUNT_FILE_PATH = new FileInputStream("./src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-99e4a641f9.json");
 
     private static final String FCM_URL = "https://fcm.googleapis.com/v1/projects/gf-goapp-push-notices/messages:send";
 
@@ -28,7 +28,7 @@ public class PushNotificationService {
     // Generate OAuth 2.0 token
     public String getAccessToken() throws IOException {
         GoogleCredentials credentials = GoogleCredentials
-                .fromStream(new FileInputStream("./src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-b1081a1909.json"))
+                .fromStream(new FileInputStream("./src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-99e4a641f9.json"))
                 .createScoped("https://www.googleapis.com/auth/cloud-platform");
 
         credentials.refreshIfExpired();
