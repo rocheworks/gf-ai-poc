@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy JAR app to Azure Web App - GF-GoApp-D
+name: Build and deploy JAR app to Azure Web App - GF-GoApp-Deploy-D
 
 on:
   push:
@@ -48,7 +48,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'GF-GoApp-D'
+          app-name: 'GF-GoApp-Deploy-D'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC7F99F17B7548F7B761E284BBD469D0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1123EC8758B474482475C1C75CFEB0C }}
