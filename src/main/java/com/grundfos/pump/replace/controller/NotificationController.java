@@ -211,7 +211,7 @@ public class NotificationController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Device token is missing or empty");
         }
 
-        // Send notification to the specified device token
+        // Send notifications to the specified device token. We have only one device token
         try {
             if (eventName.startsWith("Go Replace Button Clicked")){
                  message = Message.builder()

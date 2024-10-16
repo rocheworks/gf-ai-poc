@@ -2990,3 +2990,5 @@ This message is only logged the first time it occurs after startup.
 2024-10-16 11:12:39.423+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
 2024-10-16 11:32:15.725+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 27532, JVM running for 6.297 s)
 2024-10-16 11:32:15.739+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 11:47:33.398+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 12640, JVM running for 6.347 s)
+2024-10-16 11:47:33.410+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
