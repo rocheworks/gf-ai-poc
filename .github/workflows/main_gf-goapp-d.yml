@@ -1,5 +1,6 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
+
 name: Build and deploy JAR app to Azure Web App - GF-GoApp-D
 
 on:
@@ -18,8 +19,8 @@ jobs:
       - name: Set up Java version
         uses: actions/setup-java@v4
         with:
-          java-version: '21'
-          distribution: 'corretto'
+          java-version: 'java21'
+          distribution: 'microsoft'
 
       - name: Build with Maven
         run: mvn clean install
@@ -50,4 +51,4 @@ jobs:
           app-name: 'GF-GoApp-D'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03C34953158B4327BEF82013F7948D7A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC7F99F17B7548F7B761E284BBD469D0 }}
