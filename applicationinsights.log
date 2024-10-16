@@ -2992,3 +2992,13 @@ This message is only logged the first time it occurs after startup.
 2024-10-16 11:32:15.739+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
 2024-10-16 11:47:33.398+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 12640, JVM running for 6.347 s)
 2024-10-16 11:47:33.410+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 13:14:02.481+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 15468, JVM running for 6.603 s)
+2024-10-16 13:14:02.496+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 13:40:07.517+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 2932, JVM running for 18.78 s)
+2024-10-16 13:40:07.617+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 13:43:27.547+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 20736, JVM running for 7.095 s)
+2024-10-16 13:43:27.563+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 14:05:21.845+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 30804, JVM running for 8.096 s)
+2024-10-16 14:05:21.865+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4
+2024-10-16 14:12:22.978+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.5.4 started successfully (PID 37160, JVM running for 7.999 s)
+2024-10-16 14:12:22.994+05:30 INFO  c.m.applicationinsights.agent - Java version: 21.0.4, vendor: Amazon.com Inc., home: C:\Users\997895\.jdks\corretto-21.0.4

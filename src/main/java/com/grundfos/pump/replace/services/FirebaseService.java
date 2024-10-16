@@ -14,7 +14,7 @@ public class FirebaseService {
     public void initialize() {
         try {
             System.out.println("In FirebaseService Initialize");
-            FileInputStream serviceAccount = new FileInputStream("./src/main/resources/gf-goapp-push-notices-firebase-adminsdk-rn8qe-99e4a641f9.json");
+            FileInputStream serviceAccount = new FileInputStream("./src/main/resources/gf-goapp-push-notices-3d9392da1305.json");
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                     .build();
